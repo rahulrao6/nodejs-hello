@@ -1,4 +1,5 @@
-FROM cgr.dev/chainguard/node:latest
+FROM node:alpine
+
 WORKDIR /usr/src/app
 COPY package*.json ./
 USER node

@@ -1,4 +1,5 @@
-FROM cgr.dev/chainguard/node:latest
+FROM public.ecr.aws/lambda/nodejs:latest
+
 WORKDIR /usr/src/app
 COPY package*.json ./
 USER node

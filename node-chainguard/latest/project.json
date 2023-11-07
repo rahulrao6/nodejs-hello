@@ -1,0 +1,17 @@
+{
+    "name": "NodeJS Hello World",
+    "category": "hello-world",
+    "image": "docker.io/library/node:latest",
+    "source": "dockerfile",
+    "port": "9001",
+    "test_suite": "newman",
+    "run_instrumented_as": "root",
+    "slim_cli": {
+        "timeout": "20m",
+        "stop-grace-period": "300s",
+        "include-path": [],
+        "include-bin": [],
+        "include-exe": [],
+        "exclude-pattern": []
+    }
+}
